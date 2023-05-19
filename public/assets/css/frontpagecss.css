@@ -1,0 +1,344 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px 0px;
+    background-color: rgb(192, 0, 0);
+    overflow: hidden;
+}
+
+li, a, p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.logo
+{
+    margin-right: auto;
+    margin-left: 80px;
+    /*color: bold;*/
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.navmenu
+{
+    list-style: none;
+}
+
+.navmenu li
+{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.navmenu li a
+{
+    width: 10px;
+    height: 10px;
+}
+
+.navmenu li a:hover
+{
+    background-color: whitesmoke;
+    padding: 10px 10px;
+
+}
+.wave
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.wave .wavee
+{
+    width: 100%;
+    height: 500px;
+}
+
+.osep
+{
+    width: 400px;
+    left: 7%;
+    top: 5%;
+    position: absolute;
+}
+
+.logoContainer
+{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.textbox_container
+{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.textbox_container .input1
+{
+    height: 40px;
+    width: 600px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.textbox_container .input2
+{
+    height: 40px;
+    width: 442px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnSearch
+{
+    height: 40px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.pesologo
+{
+    position: absolute;
+    right: 0%;
+    top: 115%;
+    align-items: center;
+}
+
+.pesologo .textbox_container
+{
+    display: inline-block;
+}
+
+.logos li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logos .logo1, .logo2
+{
+    width: 80px;
+    height: 80px;
+}
+
+.logo3{
+    width: 130px;
+    height: 80px;
+}
+
+.jobpostingcontainer
+{
+    width: 100%;
+    height: 657px;
+    position: relative;
+    padding-top: 0px;
+}
+
+.jobsdivider
+{
+    position: absolute;
+    padding-left: 30px;
+    top: 50%;
+    display: inline-block;
+}
+
+
+.wave2container
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.wave2container img
+{
+    height: 70px;
+    width: 100%;
+    top: 100%;
+}
+
+.mvpcontainer
+{
+    width: 100%;
+    height: 657px;
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+}
+
+
+.wave3container
+{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.wave3container img
+{
+    height: 550px;
+    width: 100%;
+}
+
+.mvp
+{
+    position: absolute;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 50px;
+    /* background-color: antiquewhite; */
+}
+
+.mvp div
+{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-right: 25px;
+    /* background-color: aquamarine; */
+}
+
+.mvp p
+{
+    font-size: 20px;
+}
+
+.mvp img
+{
+    width: 90px;
+    height: 80px;
+
+}
+
+.footercontainer
+{
+    width: 100%;
+    height: 657px;
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+}
+
+.footer
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(192, 0, 0);
+    position: absolute;
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+    bottom: 0;
+}
+
+.aboutsContainer
+{
+    padding: 10px;
+}
+
+.aboutsContainer div
+{
+    display: inline-block;
+}
+
+.aboutsContainer .facebook
+{
+    width: 30px;
+    height: 30px;
+}
+
+.aboutsContainer .contact
+{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.privacyContainer
+{
+    position: absolute;
+    right: 1%;
+}
+
+.privacyContainer div
+{
+    display: inline-block;
+}
+
+.privacyContainer .eme
+{
+    margin-left: 20px;
+}
+
+.card
+{
+    width: 100%;
+    position: absolute;
+}
+
+.card .cardContainer
+{
+    display: flex;
+    overflow-x: auto;
+    padding: 0 0 0 10px;
+}
+
+.cardContainer .cardItems
+{
+    min-width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    /* background-color: black; */
+    border: solid #2E6CA4;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cardItems p
+{
+    color: black;
+    font-size: 12px;
+}
+
+.facebookContainer p a:hover
+{
+    background-color: rgba(12, 12, 101, 0.91);
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
